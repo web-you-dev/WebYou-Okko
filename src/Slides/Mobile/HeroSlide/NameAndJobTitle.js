@@ -14,7 +14,7 @@ const Container = styled.section`
 `;
 
 const Name = styled.div`
-  font-family: 'Valencia';
+  font-family: 'Pacifico';
   text-align:center;
   padding-right: 10px;
   @media ${device.mobileS} {
@@ -35,7 +35,7 @@ const Name = styled.div`
 `;
 
 const Title = styled.div`
-  font-family: 'AvenirRoman';
+  font-family: 'Montserrat-Regular';
   text-align:center;
   margin-top: 10px;
   @media ${device.mobileS} {
@@ -59,8 +59,8 @@ class NameAndJobTitle extends Component {
   render() {
     return (
       <Container>
-        <Name>Suresh Murali</Name>
-        <Title>UI/UX DESIGNER & DEVELOPER</Title>
+        <Name>Презентація</Name>
+        <Title>Web-You & OKKO</Title>
       </Container>
     );
   }

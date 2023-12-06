@@ -15,7 +15,7 @@ width: 100%;
 `;
 
 const ProjectName = styled.div`
-  font-family: 'AvenirHeavy';
+  font-family: 'Gyre-Bold';
   @media ${device.mobileS} {
     font-size: 40px;
   }
@@ -36,7 +36,7 @@ const ProjectName = styled.div`
 
 const ProjectDesc = styled.div`
   padding-top:2%;
-  font-family: 'AvenirBook';
+  font-family: 'Gyre-Italic';
   @media ${device.laptopL} {
     font-size: 30px;
   }
@@ -48,7 +48,7 @@ const ProjectDesc = styled.div`
 
 const MyRole = styled.div`
   padding-top:5%;
-  font-family: 'AvenirMedium';
+  font-family: 'Gyre-Regular';
   @media ${device.laptopL} {
     font-size: 30px;
   }
@@ -59,7 +59,7 @@ const MyRole = styled.div`
 `;
 
 const ProjectID = styled.div`
-  font-family: 'AvenirHeavy';
+  font-family: 'Gyre-Bold';
   @media ${device.laptopL} {
     font-size: 30px;
   }
@@ -71,7 +71,7 @@ const ProjectID = styled.div`
 `;
 
 const ProjectType = styled.div`
-  font-family: 'AvenirHeavy';
+  font-family: 'Gyre-Bold';
   @media ${device.laptopL} {
     font-size: 30px;
   }
@@ -221,7 +221,7 @@ class TextContent extends Component {
 
         <ProjectType>
           <BlockTextReveal refreshToggle={refreshToggle} inline>
-            {projectType}
+            <div dangerouslySetInnerHTML={{ __html: projectType }} />
           </BlockTextReveal>
         </ProjectType>
       </TextContainer>

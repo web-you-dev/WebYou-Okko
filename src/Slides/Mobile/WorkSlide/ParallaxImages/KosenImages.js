@@ -31,7 +31,7 @@ bottom: -210vh;
 right: 3vw;
 transform-origin: right center;
 /* border: 1px dashed red; */
-filter: blur(0.6px);
+
 height: 70vh; 
 `;
 
@@ -47,7 +47,6 @@ transform-origin: left center;
 position: absolute;
 /* border: 1px dashed red; */
 height: 70vh;
-filter: blur(1px);
 `;
 
 class KosenImages extends Component {

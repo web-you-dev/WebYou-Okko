@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import twitterImg from '../../../Assets/Images/Social/twitter.svg';
+import twitterImg from '../../../Assets/Images/Social/fb.svg';
 import githubImg from '../../../Assets/Images/Social/git.svg';
 import mailImg from '../../../Assets/Images/Social/mail.svg';
 import instaImg from '../../../Assets/Images/Social/insta.svg';
-import dribbbleImg from '../../../Assets/Images/Social/dribbble.svg';
+import dribbbleImg from '../../../Assets/Images/Social/web.svg';
 import linkedInImg from '../../../Assets/Images/Social/linkedin.svg';
 import SocialLogo from './SocialLogo';
 import device from '../../../Assets/Responsive/breakpoints';
@@ -89,12 +89,11 @@ class Contact extends Component {
       <Container>
         <ContactTitle scrollPercent={scrollPercent}>CONTACT</ContactTitle>
         <SocialMediaIcons>
-          <SocialLogo imgURL={twitterImg} alternate="Twitter" redirectURL="https://twitter.com/sureshmurali29" />
-          <SocialLogo imgURL={githubImg} alternate="Github" redirectURL="https://github.com/sureshmurali" />
-          <SocialLogo imgURL={mailImg} alternate="Mail" redirectURL="mailto:sureshmurali29@gmail.com" />
-          <SocialLogo imgURL={instaImg} alternate="Instagram" redirectURL="https://www.instagram.com/sureshmurali_/" />
-          <SocialLogo imgURL={dribbbleImg} alternate="Dribbble" redirectURL="https://dribbble.com/sureshmurali29" />
-          <SocialLogo imgURL={linkedInImg} alternate="Linkedin" redirectURL="https://www.linkedin.com/in/sureshmurali29" />
+          <SocialLogo imgURL={twitterImg} alternate="Twitter" redirectURL="https://www.facebook.com/webyoudigitalagency" />
+
+          <SocialLogo imgURL={mailImg} alternate="Mail" redirectURL="mailto:yuriy.kuzmin@web-you.pl" />
+          <SocialLogo imgURL={dribbbleImg} alternate="Website" redirectURL="https://web-you.pl" />
+          <SocialLogo imgURL={linkedInImg} alternate="Linkedin" redirectURL="www.linkedin.com/in/yuriy-kuzmin-97374659" />
         </SocialMediaIcons>
       </Container>
     );

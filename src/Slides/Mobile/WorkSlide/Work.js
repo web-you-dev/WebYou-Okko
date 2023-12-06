@@ -7,6 +7,7 @@ import ImageContent from './ImageContent';
 const Container = styled.div`
     display: flex;
     flex-flow: row nowrap;
+    width:100vw;
     /* border: 1px dashed red; */
 `;
 
@@ -31,45 +32,45 @@ class Work extends Component {
       },
       {
         number: '01',
-        projectName: 'FR Design system',
-        projectDesc: 'Multi brand e-commerce design system for websites and native mobile applications.',
-        projectType: 'DESIGN SYSTEM',
-        roles: ['Design system lead', 'Technical PDM'],
+        projectName: 'Okko',
+        projectDesc: 'Найкращий партнер для креативної та талановитої студії! Дякуємо! Ви надихаєте нас бути кращими!',
+        projectType: 'Web-You Team......',
+        roles: ['Окко для людей', 'Люди для ідей'],
       },
       {
         number: '02',
-        projectName: 'LASHIC',
-        projectDesc: "Mobile app and websites for senior citizen facility's caregivers, service managers and admins.",
-        projectType: 'APP SUITE',
-        roles: ['Design lead'],
+        projectName: 'Web-you',
+        projectDesc: "У Web-you ми пишаємося нашою командою висококласних фахівців у галузі менеджменту та технологій! Познайомтеся з деякими з нас...",
+        projectType: '<a href="https://team.web-you.pl" style="color: black; text-decoration: none;">team.web-you.pl</a>',
+        roles: ['Наша цілісність'],
       },
       {
         number: '03',
-        projectName: 'Eyep',
-        projectDesc: 'Single purpose website to show your IP address and location.',
-        projectType: 'WEB APP',
-        roles: ['UI Designer', 'Front-end Developer'],
+        projectName: 'Зв’язок між нами та ОККО',
+        projectDesc: 'Ми розділяємо погляд ОККО на світ. Ми якісні, стрімкі та сучасні! Ми прагнемо зробити світ кращим! Все, як в сім’ї ОККО!',
+        projectType: 'Наші досягнення нижче ↓',
+        roles: ['Наші послуги', 'Потреби великої компанії'],
       },
       {
         number: '04',
-        projectName: 'Tesla app',
-        projectDesc: 'iOS app concept to control Tesla cars remotely.',
-        projectType: 'iOS APP CONCEPT',
-        roles: ['UI Designer'],
+        projectName: 'Портфоліо Web-You',
+        projectDesc: 'Представимо Вам кілька проектів, якими пишаються наші замовники',
+        projectType: 'Портфоліо налічує  > 100 проектів',
+        roles: ['Креативність та технології'],
       },
       {
         number: '05',
-        projectName: 'WhatsMyFood',
-        projectDesc: 'iOS app to remember your fav food at each restaurant you eat.',
-        projectType: 'iOS APP',
-        roles: ['UI Designer', 'Front-end Developer'],
+        projectName: 'Портфоліо Web-You',
+        projectDesc: 'Втілюючи в життя найсміливіші ідеї наших клієнтів…',
+        projectType: '<a href="https://web-you.pl" style="color: black; text-decoration: none;">web-you.pl</a>',
+        roles: ['Автоматизація', 'Робототехніка'],
       },
       {
         number: '06',
-        projectName: 'Voistrap',
-        projectDesc: 'Web app project to give workplace insights using indoor localization, voice and schedule.',
-        projectType: 'iOS APP',
-        roles: ['UI Designer', 'Full Stack Developer'],
+        projectName: 'Електроніка та комплектуючі',
+        projectDesc: 'У Web-You імпорт електроніки від продуцентів зі всього світу здійснюється материнською компанією',
+        projectType: '<a href="https://new.k-it.com.ua" style="color: black; text-decoration: none;">new.k-it.com.ua</a>',
+        roles: ['K-iT', 'Web-You'],
       },
       {
         number: '',

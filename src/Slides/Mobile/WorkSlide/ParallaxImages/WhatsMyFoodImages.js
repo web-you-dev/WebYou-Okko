@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import homeImg from '../../../../Assets/Images/Web-You Portfolio/art-victory.webp';
-import restaurantImg from '../../../../Assets/Images/Web-You Portfolio/sparte.webp';
+import restaurantImg from '../../../../Assets/Images/Web-You Portfolio/erp.png';
 import addRestaurantImg from '../../../../Assets/Images/Web-You Portfolio/Blockchain.webp';
 import addFoodImg from '../../../../Assets/Images/Web-You Portfolio/Binance.webp';
 
@@ -32,7 +32,6 @@ right: 2vw;
 transform-origin: right center;
 /* border: 1px dashed red; */
 height: 80vh;
-filter: blur(0.6px);
 `;
 
 const AddFood = styled.img.attrs({
@@ -47,7 +46,6 @@ transform-origin: left center;
 position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;
-filter: blur(0.8px);
 `;
 
 const AddRestaurant = styled.img.attrs({
@@ -62,7 +60,6 @@ transform-origin: right center;
 position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;
-filter: blur(1.2px);
 `;
 
 class WhatsMyFoodImages extends Component {

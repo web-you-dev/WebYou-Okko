@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import alertImg from '../../../../Assets/Images/Lashic/Alert.png';
-import taskImg from '../../../../Assets/Images/Lashic/Task.png';
-import customersImg from '../../../../Assets/Images/Lashic/Customers.png';
-import customerDetailImg from '../../../../Assets/Images/Lashic/CustomerDetail.png';
+import alertImg from '../../../../Assets/Images/Web-You People/Artem.webp';
+import taskImg from '../../../../Assets/Images/Web-You People/Yra.webp';
+import customersImg from '../../../../Assets/Images/Web-You People/Victory.webp';
+import customerDetailImg from '../../../../Assets/Images/Web-You People/Andrey.webp';
 
 const Task = styled.img.attrs({
   style: ({ scroll }) => ({
@@ -32,7 +32,6 @@ right: 2vw;
 transform-origin: right center;
 /* border: 1px dashed red; */
 height: 80vh;
-filter: blur(0.6px);
 `;
 
 const CustomerDetail = styled.img.attrs({
@@ -47,7 +46,6 @@ transform-origin: left center;
 position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;
-filter: blur(0.8px);
 `;
 
 const Customers = styled.img.attrs({
@@ -62,7 +60,6 @@ transform-origin: right center;
 position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;
-filter: blur(1.2px);
 `;
 
 class LashicImages extends Component {

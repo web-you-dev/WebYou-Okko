@@ -44,9 +44,10 @@ class AboutMe extends Component {
     return (
       <Container>
         <AboutMeDescription>
-        Надихаємо бізнеси втілювати ідеї в життя! 	<br/>
-      Компанія з розробки програмного забезпечення та креативних продуктів.
-        </AboutMeDescription>
+          Надихаємо бізнеси втілювати ідеї в життя!
+          <br/>
+          Компанія з розробки програмного забезпечення та креативних продуктів. 
+      </AboutMeDescription>
       </Container>
     );
   }

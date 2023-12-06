@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import fastRetailingUQImg from '../../../../Assets/Images/FastRetailing/UQ.png';
-import fastRetailingGUImg from '../../../../Assets/Images/FastRetailing/GU.png';
-import fastRetailingPLSTImg from '../../../../Assets/Images/FastRetailing/PLST.png';
-import fastRetailingGU2Img from '../../../../Assets/Images/FastRetailing/GU2.png';
+import fastRetailingUQImg from '../../../../Assets/Images/Cars/White.png';
+import fastRetailingGUImg from '../../../../Assets/Images/Okko Sreens/Servises.webp';
+import fastRetailingPLSTImg from '../../../../Assets/Images/Okko Sreens/Mission.webp';
+import fastRetailingGU2Img from '../../../../Assets/Images/Cars/Blue.png';
+
 
 
 const FastRetailingPhoneUQ = styled.img.attrs({
@@ -33,7 +34,6 @@ right: 2vw;
 transform-origin: right center;
 /* border: 1px dashed red; */
 height: 80vh;
-filter: blur(0.6px);
 `;
 
 const FastRetailingPhonePLST = styled.img.attrs({
@@ -48,7 +48,6 @@ transform-origin: left center;
 position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;
-filter: blur(0.8px);
 `;
 
 const FastRetailingPhoneGU2 = styled.img.attrs({
@@ -63,7 +62,6 @@ transform-origin: right center;
 position: absolute;
 /* border: 1px dashed red; */
 height: 80vh;
-filter: blur(1.2px);
 `;
 
 class FastRetailingImages extends Component {

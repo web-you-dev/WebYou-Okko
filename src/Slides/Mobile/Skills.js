@@ -28,7 +28,7 @@ const Container = styled.section`
 `;
 
 const SkillsTitle = styled.div`
-  font-family: 'AvenirHeavy';
+  font-family: 'Gyre-Bold';
   color: #000;
   @media ${device.mobileS} {
     font-size: 40px;
@@ -48,7 +48,7 @@ const SkillsTitle = styled.div`
 `;
 
 const SkillsList = styled.div`
-  font-family: 'AvenirRoman';
+  font-family: 'Gyre-Regular';
   z-index: 1;
   
   @media ${device.mobileS} {
@@ -79,12 +79,12 @@ class Skills extends Component {
       <Container>
         <SkillsTitle>SKILLS</SkillsTitle>
         <SkillsList>
-          <div>
-            Product Design
+        <div>
+            Дизайн продукту
             <br />
-            Design system
+            Системний дизайн
             <br />
-            Information architect
+            Інформаційна архітектура
             <br />
             <br />
             HTML & CSS
@@ -93,21 +93,25 @@ class Skills extends Component {
             <br />
             Node JS
             <br />
+            .Net
+            <br />
           </div>
-          <br />
           <div>
-            Project Management
+          <br />
+            Управління проектами
             <br />
-            Visual Communication
+            Візуальна комунікація
             <br />
-            Concept development
+            Розробка концепції
             <br />
             <br />
-            Figma
+            Unity
             <br />
-            Sketch
+            Unreal Engine
             <br />
-            Principle
+            Robotics
+            <br />
+            Mobile development
             <br />
           </div>
         </SkillsList>

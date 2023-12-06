@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import homeImg from '../../../../Assets/Images/Web-You Portfolio/art-victory.webp';
-import restaurantImg from '../../../../Assets/Images/Web-You Portfolio/sparte.webp';
+import restaurantImg from '../../../../Assets/Images/Web-You Portfolio/erp.png';
 import addRestaurantImg from '../../../../Assets/Images/Web-You Portfolio/Blockchain.webp';
 import addFoodImg from '../../../../Assets/Images/Web-You Portfolio/Binance.webp';
 

@@ -16,7 +16,7 @@ const SkillsTitle = styled.div.attrs({
   }),
 })`
   transition: transform 0.5s ease-out;
-  font-family: 'AvenirHeavy';
+  font-family: 'Gyre-Bold';
   position: absolute;
   color: #EEE;
   top:30%;
@@ -38,7 +38,7 @@ const SkillsList = styled.div`
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  font-family: 'AvenirRoman';
+  font-family: 'Gyre-Regular';
   text-align: left;
   margin-left: 15%;
   margin-right: 10%;
@@ -95,11 +95,11 @@ class Skills extends Component {
         <SkillsTitle scrollPercent={scrollPercent}>SKILLS</SkillsTitle>
         <SkillsList>
           <div>
-            Product Design
+            Дизайн продукту
             <br />
-            Design system
+            Системний дизайн
             <br />
-            Information architect
+            Інформаційна архітектура
             <br />
             <br />
             HTML & CSS
@@ -112,11 +112,11 @@ class Skills extends Component {
             <br />
           </div>
           <div>
-            Project Management
+            Управління проектами
             <br />
-            Visual Communication
+            Візуальна комунікація
             <br />
-            Concept development
+            Розробка концепції
             <br />
             <br />
             Unity

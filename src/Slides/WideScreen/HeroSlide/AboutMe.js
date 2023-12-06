@@ -89,8 +89,9 @@ class AboutMe extends Component {
       <Container>
         <AboutMeTitle scrollPercent={scrollPercent}>ПРО НАС</AboutMeTitle>
         <AboutMeDescription>
-        Надихаємо бізнеси втілювати ідеї в життя! 	<br/>
-      Компанія з розробки програмного забезпечення та креативних продуктів. </AboutMeDescription>
+          Надихаємо бізнеси втілювати ідеї в життя!
+          <br/>
+          Компанія з розробки програмного забезпечення та креативних продуктів. </AboutMeDescription>
       </Container>
     );
   }
