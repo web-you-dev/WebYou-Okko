@@ -1,0 +1,94 @@
+@font-face {
+font-family: 'AvenirLight';
+src: url('./Fonts/Avenir/Avenir-Light-07.ttf');
+}
+
+@font-face {
+font-family: 'AvenirRoman';
+src: url('./Fonts/Avenir/Avenir-Roman-12.ttf');
+}
+
+@font-face {
+font-family: 'AvenirBook';
+src: url('./Fonts/Avenir/Avenir-Book-01.ttf');
+}
+
+@font-face {
+font-family: 'AvenirMedium';
+src: url('./Fonts/Avenir/Avenir-Medium-09.ttf');
+}
+
+@font-face {
+font-family: 'AvenirHeavy';
+src: url('./Fonts/Avenir/Avenir-Heavy-05.ttf');
+}
+
+@font-face {
+font-family: 'Valencia';
+src: url('./Fonts/Valencia/Valencia.ttf');
+}
+
+@font-face {
+font-family: 'Exo2Regular';
+src: url('./Fonts/Exo2/Exo2-Regular.ttf');
+}
+
+@font-face {
+font-family: 'Exo2Bold';
+src: url('./Fonts/Exo2/Exo2-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'MPLUSRounded1c-Regular';
+    src: url('./Fonts/M_PLUS_Rounded/MPLUSRounded1c-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu-Light';
+    src: url('./Fonts/Ubuntu/Ubuntu-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu-Bold';
+    src: url('./Fonts/Ubuntu/Ubuntu-Bold.ttf');
+}
+@font-face {
+    font-family: 'Ubuntu-Regular';
+    src: url('./Fonts/Ubuntu/Ubuntu-Regular.ttf');
+}
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('./Fonts/Montserrat/Montserrat-Light.ttf');
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('./Fonts/Montserrat/Montserrat-Bold.ttf');
+}
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('./Fonts/Montserrat/Montserrat-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('./Fonts/Montserrat/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: 'Gyre-Regular';
+    src: url('./Fonts/TeX Gyre Adventor/TeXGyreAdventor-Regular.ttf');
+}
+@font-face {
+    font-family: 'Gyre-Bold';
+    src: url('./Fonts/TeX Gyre Adventor/TeXGyreAdventor-Bold.ttf');
+}
+@font-face {
+    font-family: 'Gyre-Italic';
+    src: url('./Fonts/TeX Gyre Adventor/TeXGyreAdventor-Italic.ttf');
+}
+@font-face {
+    font-family: 'TTLoveloes';
+    src: url('./Fonts/tt-lovelies-script/TT Lovelies Script.ttf');
+}
+@font-face {
+    font-family: 'Pacifico';
+    src: url('./Fonts/GentlemensScript-Regular.ttf');
+}
