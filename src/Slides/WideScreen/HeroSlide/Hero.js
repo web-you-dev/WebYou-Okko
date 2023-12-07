@@ -11,14 +11,29 @@ class Hero extends Component {
         {/* Логотип компании 1 */}
         <img
           src={logo1}
-          alt="web-you"
-          style={{ position: 'absolute', bottom: 5, left: 5, width: '112px', height: '32px' }}
+          alt="Логотип Компании 1"
+          style={{
+            position: 'absolute',
+            bottom: '2%',
+            left: '7%',
+            width: '10%',  // Регулируйте размер относительно ширины экрана
+            height: 'auto', // Сохраняйте пропорции
+          }}
         />
+
+        {/* Логотип компании 2 */}
         <img
           src={logo2}
-          alt="Okko"
-          style={{ position: 'absolute', bottom: 7, left: 130, width: '30px', height: '30px' }}
+          alt="Логотип Компании 2"
+          style={{
+            position: 'absolute',
+            bottom: '2%',
+            left: '2%',
+            width: '4%',  // Регулируйте размер относительно ширины экрана
+            height: 'auto', // Сохраняйте пропорции
+          }}
         />
+
         {/* Логотип компании 2 */}
        
 

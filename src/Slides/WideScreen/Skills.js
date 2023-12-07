@@ -19,8 +19,9 @@ const SkillsTitle = styled.div.attrs({
   font-family: 'Gyre-Bold';
   position: absolute;
   color: #EEE;
-  top:30%;
-  right:-50%;
+  z-index:0;
+  top:0%;
+  left:5%;
   @media ${device.laptop} {
     font-size: 180px;
   }
@@ -79,7 +80,7 @@ class Skills extends Component {
   handleScroll(event) {
     const { body, documentElement } = event.srcElement;
     const sd = Math.max(body.scrollTop, documentElement.scrollTop);
-    let sp = (sd / (documentElement.scrollHeight - documentElement.clientHeight) * 100);
+    let sp = (sd / (documentElement.scrollHeight - documentElement.clientHeight) * 70);
     const minlimit = (documentElement.clientHeight * 950) / documentElement.scrollHeight;
     const maxlimit = (documentElement.clientHeight * 1180) / documentElement.scrollHeight;
     if (sp >= minlimit && sp <= maxlimit + 3) {
